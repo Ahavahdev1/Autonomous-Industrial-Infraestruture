@@ -1,0 +1,57 @@
+{
+    "status_global": "OPERANDO_COM_RISCOS",
+    "tempo_rodada": 58,
+    "registro_operacional": [
+        {
+            "data": "2026-07-09 13:52:26",
+            "ciclo": 1,
+            "evento": "Otimiza\u00e7\u00e3o Sint\u00e9tica de Tr\u00e1fego Executada via Sandbox JIT"
+        },
+        {
+            "data": "2026-07-09 13:52:44",
+            "ciclo": 2,
+            "evento": "Otimiza\u00e7\u00e3o Sint\u00e9tica de Tr\u00e1fego Executada via Sandbox JIT"
+        },
+        {
+            "data": "2026-07-09 13:53:06",
+            "ciclo": 3,
+            "evento": "Otimiza\u00e7\u00e3o Sint\u00e9tica de Tr\u00e1fego Executada via Sandbox JIT"
+        },
+        {
+            "data": "2026-07-09 13:53:25",
+            "ciclo": 4,
+            "evento": "Otimiza\u00e7\u00e3o Sint\u00e9tica de Tr\u00e1fego Executada via Sandbox JIT"
+        },
+        {
+            "data": "2026-07-09 13:53:44",
+            "ciclo": 5,
+            "evento": "Otimiza\u00e7\u00e3o Sint\u00e9tica de Tr\u00e1fego Executada via Sandbox JIT"
+        }
+    ],
+    "guindastes": [
+        {
+            "id": "Gantry_1",
+            "status": "FALHA_MECANICA",
+            "temperatura_motor": 25.0,
+            "fila_cargas": []
+        },
+        {
+            "id": "Gantry_2",
+            "status": "FALHA_MECANICA",
+            "temperatura_motor": 25.0,
+            "fila_cargas": []
+        },
+        {
+            "id": "Gantry_3",
+            "status": "ATIVO",
+            "temperatura_motor": -12.0,
+            "fila_cargas": []
+        },
+        {
+            "id": "Gantry_4",
+            "status": "ATIVO",
+            "temperatura_motor": 0.0,
+            "fila_cargas": []
+        }
+    ]
+}

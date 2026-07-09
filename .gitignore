@@ -1,0 +1,9 @@
+﻿.env
+*.log
+otimizador_patio.py
+otimizador_pista.py
+*.pyc
+__pycache__/
+failed_patch_debug.txt
+venv/
+.vscode/
