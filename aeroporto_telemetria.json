@@ -1,0 +1,1824 @@
+{
+    "tempo_rodada": 10,
+    "pistas_locais": {
+        "Pista_01": "OBSTRUCAO_FOGO_CLIMA",
+        "Pista_02": "OBSTRUCAO_FOGO_CLIMA",
+        "Pista_03_Emergencia": "OBSTRUCAO_FOGO_CLIMA"
+    },
+    "capacidade_alternados": {
+        "GRU_Guarulhos": 0,
+        "GIG_Galeao": 0,
+        "CNF_Confins": 0,
+        "VCP_Campinas": 0,
+        "BSB_Brasilia": 0
+    },
+    "metricas_resiliencia": {
+        "intervencoes_ia": 0,
+        "sre_overrides": 0,
+        "desvios_contingencia": 270,
+        "pousos_sucesso": 30,
+        "acidentes": 0
+    },
+    "aeronaves": [
+        {
+            "id": "VOO_0001",
+            "status": "DESVIADO",
+            "combustivel": 77.5,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0002",
+            "status": "DESVIADO",
+            "combustivel": 78.3,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0003",
+            "status": "DESVIADO",
+            "combustivel": 63.0,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0004",
+            "status": "DESVIADO",
+            "combustivel": 57.5,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0005",
+            "status": "DESVIADO",
+            "combustivel": 85.9,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0006",
+            "status": "DESVIADO",
+            "combustivel": 70.0,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0007",
+            "status": "DESVIADO",
+            "combustivel": 81.4,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0008",
+            "status": "DESVIADO",
+            "combustivel": 90.4,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0009",
+            "status": "POUSADO",
+            "combustivel": 7.6,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0010",
+            "status": "DESVIADO",
+            "combustivel": 76.0,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0011",
+            "status": "POUSADO",
+            "combustivel": 31.0,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0012",
+            "status": "DESVIADO",
+            "combustivel": 46.9,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0013",
+            "status": "DESVIADO",
+            "combustivel": 85.9,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0014",
+            "status": "DESVIADO",
+            "combustivel": 89.4,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0015",
+            "status": "POUSADO",
+            "combustivel": 34.0,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0016",
+            "status": "DESVIADO",
+            "combustivel": 54.8,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0017",
+            "status": "DESVIADO",
+            "combustivel": 67.1,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0018",
+            "status": "DESVIADO",
+            "combustivel": 42.0,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0019",
+            "status": "DESVIADO",
+            "combustivel": 77.9,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0020",
+            "status": "DESVIADO",
+            "combustivel": 79.2,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0021",
+            "status": "DESVIADO",
+            "combustivel": 55.2,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0022",
+            "status": "POUSADO",
+            "combustivel": 33.9,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0023",
+            "status": "DESVIADO",
+            "combustivel": 57.5,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0024",
+            "status": "DESVIADO",
+            "combustivel": 89.6,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0025",
+            "status": "DESVIADO",
+            "combustivel": 94.6,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0026",
+            "status": "DESVIADO",
+            "combustivel": 45.4,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0027",
+            "status": "DESVIADO",
+            "combustivel": 86.9,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0028",
+            "status": "DESVIADO",
+            "combustivel": 60.4,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0029",
+            "status": "DESVIADO",
+            "combustivel": 51.9,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0030",
+            "status": "DESVIADO",
+            "combustivel": 50.9,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0031",
+            "status": "DESVIADO",
+            "combustivel": 88.0,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0032",
+            "status": "POUSADO",
+            "combustivel": 32.2,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0033",
+            "status": "DESVIADO",
+            "combustivel": 94.6,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0034",
+            "status": "POUSADO",
+            "combustivel": 33.7,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0035",
+            "status": "DESVIADO",
+            "combustivel": 49.6,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0036",
+            "status": "DESVIADO",
+            "combustivel": 82.4,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0037",
+            "status": "DESVIADO",
+            "combustivel": 88.1,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0038",
+            "status": "DESVIADO",
+            "combustivel": 98.2,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0039",
+            "status": "DESVIADO",
+            "combustivel": 91.0,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0040",
+            "status": "DESVIADO",
+            "combustivel": 48.5,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0041",
+            "status": "DESVIADO",
+            "combustivel": 41.5,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0042",
+            "status": "DESVIADO",
+            "combustivel": 48.3,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0043",
+            "status": "DESVIADO",
+            "combustivel": 51.3,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0044",
+            "status": "DESVIADO",
+            "combustivel": 95.3,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0045",
+            "status": "DESVIADO",
+            "combustivel": 59.4,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0046",
+            "status": "DESVIADO",
+            "combustivel": 82.7,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0047",
+            "status": "DESVIADO",
+            "combustivel": 59.6,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0048",
+            "status": "POUSADO",
+            "combustivel": 33.4,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0049",
+            "status": "DESVIADO",
+            "combustivel": 56.3,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0050",
+            "status": "DESVIADO",
+            "combustivel": 42.0,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0051",
+            "status": "DESVIADO",
+            "combustivel": 58.4,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0052",
+            "status": "DESVIADO",
+            "combustivel": 91.1,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0053",
+            "status": "DESVIADO",
+            "combustivel": 63.7,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0054",
+            "status": "POUSADO",
+            "combustivel": 7.0,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0055",
+            "status": "DESVIADO",
+            "combustivel": 64.6,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0056",
+            "status": "DESVIADO",
+            "combustivel": 43.9,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0057",
+            "status": "DESVIADO",
+            "combustivel": 46.0,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0058",
+            "status": "DESVIADO",
+            "combustivel": 90.8,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0059",
+            "status": "DESVIADO",
+            "combustivel": 88.4,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0060",
+            "status": "DESVIADO",
+            "combustivel": 44.7,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0061",
+            "status": "DESVIADO",
+            "combustivel": 46.5,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0062",
+            "status": "DESVIADO",
+            "combustivel": 73.9,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0063",
+            "status": "DESVIADO",
+            "combustivel": 70.9,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0064",
+            "status": "DESVIADO",
+            "combustivel": 72.8,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0065",
+            "status": "DESVIADO",
+            "combustivel": 63.3,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0066",
+            "status": "DESVIADO",
+            "combustivel": 52.1,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0067",
+            "status": "DESVIADO",
+            "combustivel": 84.9,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0068",
+            "status": "DESVIADO",
+            "combustivel": 67.1,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0069",
+            "status": "DESVIADO",
+            "combustivel": 58.2,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0070",
+            "status": "DESVIADO",
+            "combustivel": 45.5,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0071",
+            "status": "DESVIADO",
+            "combustivel": 73.1,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0072",
+            "status": "DESVIADO",
+            "combustivel": 96.1,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0073",
+            "status": "DESVIADO",
+            "combustivel": 57.7,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0074",
+            "status": "DESVIADO",
+            "combustivel": 64.0,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0075",
+            "status": "DESVIADO",
+            "combustivel": 68.6,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0076",
+            "status": "DESVIADO",
+            "combustivel": 75.0,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0077",
+            "status": "POUSADO",
+            "combustivel": 6.2,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0078",
+            "status": "DESVIADO",
+            "combustivel": 58.8,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0079",
+            "status": "DESVIADO",
+            "combustivel": 92.0,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0080",
+            "status": "DESVIADO",
+            "combustivel": 86.5,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0081",
+            "status": "DESVIADO",
+            "combustivel": 71.8,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0082",
+            "status": "DESVIADO",
+            "combustivel": 57.0,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0083",
+            "status": "DESVIADO",
+            "combustivel": 75.9,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0084",
+            "status": "DESVIADO",
+            "combustivel": 72.2,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0085",
+            "status": "DESVIADO",
+            "combustivel": 56.1,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0086",
+            "status": "DESVIADO",
+            "combustivel": 53.8,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0087",
+            "status": "DESVIADO",
+            "combustivel": 93.2,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0088",
+            "status": "DESVIADO",
+            "combustivel": 86.9,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0089",
+            "status": "DESVIADO",
+            "combustivel": 53.0,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0090",
+            "status": "DESVIADO",
+            "combustivel": 81.4,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0091",
+            "status": "DESVIADO",
+            "combustivel": 97.2,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0092",
+            "status": "POUSADO",
+            "combustivel": 30.5,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0093",
+            "status": "DESVIADO",
+            "combustivel": 73.0,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0094",
+            "status": "DESVIADO",
+            "combustivel": 51.9,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0095",
+            "status": "DESVIADO",
+            "combustivel": 75.6,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0096",
+            "status": "POUSADO",
+            "combustivel": 32.7,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0097",
+            "status": "DESVIADO",
+            "combustivel": 98.1,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0098",
+            "status": "POUSADO",
+            "combustivel": 32.4,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0099",
+            "status": "DESVIADO",
+            "combustivel": 75.4,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0100",
+            "status": "DESVIADO",
+            "combustivel": 61.2,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0101",
+            "status": "DESVIADO",
+            "combustivel": 57.7,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0102",
+            "status": "DESVIADO",
+            "combustivel": 46.9,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0103",
+            "status": "DESVIADO",
+            "combustivel": 89.2,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0104",
+            "status": "DESVIADO",
+            "combustivel": 73.8,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0105",
+            "status": "DESVIADO",
+            "combustivel": 46.0,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0106",
+            "status": "DESVIADO",
+            "combustivel": 48.6,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0107",
+            "status": "DESVIADO",
+            "combustivel": 70.9,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0108",
+            "status": "DESVIADO",
+            "combustivel": 74.5,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0109",
+            "status": "DESVIADO",
+            "combustivel": 52.8,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0110",
+            "status": "DESVIADO",
+            "combustivel": 97.0,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0111",
+            "status": "DESVIADO",
+            "combustivel": 51.9,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0112",
+            "status": "DESVIADO",
+            "combustivel": 48.3,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0113",
+            "status": "POUSADO",
+            "combustivel": 33.8,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0114",
+            "status": "DESVIADO",
+            "combustivel": 73.6,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0115",
+            "status": "DESVIADO",
+            "combustivel": 55.6,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0116",
+            "status": "DESVIADO",
+            "combustivel": 92.4,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0117",
+            "status": "DESVIADO",
+            "combustivel": 65.6,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0118",
+            "status": "DESVIADO",
+            "combustivel": 93.1,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0119",
+            "status": "DESVIADO",
+            "combustivel": 66.7,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0120",
+            "status": "DESVIADO",
+            "combustivel": 86.2,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0121",
+            "status": "DESVIADO",
+            "combustivel": 81.4,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0122",
+            "status": "DESVIADO",
+            "combustivel": 41.8,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0123",
+            "status": "DESVIADO",
+            "combustivel": 78.6,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0124",
+            "status": "DESVIADO",
+            "combustivel": 95.5,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0125",
+            "status": "DESVIADO",
+            "combustivel": 89.5,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0126",
+            "status": "POUSADO",
+            "combustivel": 32.3,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0127",
+            "status": "DESVIADO",
+            "combustivel": 91.3,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0128",
+            "status": "DESVIADO",
+            "combustivel": 90.1,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0129",
+            "status": "DESVIADO",
+            "combustivel": 90.1,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0130",
+            "status": "DESVIADO",
+            "combustivel": 92.4,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0131",
+            "status": "POUSADO",
+            "combustivel": 7.7,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0132",
+            "status": "POUSADO",
+            "combustivel": 32.9,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0133",
+            "status": "DESVIADO",
+            "combustivel": 64.4,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0134",
+            "status": "POUSADO",
+            "combustivel": 31.1,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0135",
+            "status": "DESVIADO",
+            "combustivel": 58.5,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0136",
+            "status": "POUSADO",
+            "combustivel": 8.3,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0137",
+            "status": "DESVIADO",
+            "combustivel": 50.8,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0138",
+            "status": "DESVIADO",
+            "combustivel": 94.2,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0139",
+            "status": "DESVIADO",
+            "combustivel": 48.2,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0140",
+            "status": "DESVIADO",
+            "combustivel": 88.2,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0141",
+            "status": "DESVIADO",
+            "combustivel": 72.2,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0142",
+            "status": "DESVIADO",
+            "combustivel": 93.7,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0143",
+            "status": "DESVIADO",
+            "combustivel": 81.6,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0144",
+            "status": "DESVIADO",
+            "combustivel": 41.5,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0145",
+            "status": "DESVIADO",
+            "combustivel": 95.6,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0146",
+            "status": "POUSADO",
+            "combustivel": 33.0,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0147",
+            "status": "DESVIADO",
+            "combustivel": 98.3,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0148",
+            "status": "DESVIADO",
+            "combustivel": 95.7,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0149",
+            "status": "DESVIADO",
+            "combustivel": 55.6,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0150",
+            "status": "POUSADO",
+            "combustivel": 32.6,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0151",
+            "status": "DESVIADO",
+            "combustivel": 50.1,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0152",
+            "status": "DESVIADO",
+            "combustivel": 65.1,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0153",
+            "status": "DESVIADO",
+            "combustivel": 59.0,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0154",
+            "status": "DESVIADO",
+            "combustivel": 97.0,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0155",
+            "status": "DESVIADO",
+            "combustivel": 49.4,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0156",
+            "status": "DESVIADO",
+            "combustivel": 96.5,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0157",
+            "status": "DESVIADO",
+            "combustivel": 66.9,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0158",
+            "status": "DESVIADO",
+            "combustivel": 55.1,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0159",
+            "status": "DESVIADO",
+            "combustivel": 51.9,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0160",
+            "status": "DESVIADO",
+            "combustivel": 94.8,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0161",
+            "status": "DESVIADO",
+            "combustivel": 64.1,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0162",
+            "status": "DESVIADO",
+            "combustivel": 71.5,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0163",
+            "status": "DESVIADO",
+            "combustivel": 56.0,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0164",
+            "status": "DESVIADO",
+            "combustivel": 55.7,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0165",
+            "status": "DESVIADO",
+            "combustivel": 91.8,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0166",
+            "status": "DESVIADO",
+            "combustivel": 52.4,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0167",
+            "status": "DESVIADO",
+            "combustivel": 83.2,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0168",
+            "status": "POUSADO",
+            "combustivel": 30.4,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0169",
+            "status": "DESVIADO",
+            "combustivel": 92.0,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0170",
+            "status": "DESVIADO",
+            "combustivel": 56.6,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0171",
+            "status": "DESVIADO",
+            "combustivel": 81.2,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0172",
+            "status": "DESVIADO",
+            "combustivel": 95.8,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0173",
+            "status": "DESVIADO",
+            "combustivel": 90.0,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0174",
+            "status": "POUSADO",
+            "combustivel": 4.5,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0175",
+            "status": "DESVIADO",
+            "combustivel": 80.5,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0176",
+            "status": "DESVIADO",
+            "combustivel": 48.4,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0177",
+            "status": "DESVIADO",
+            "combustivel": 94.4,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0178",
+            "status": "DESVIADO",
+            "combustivel": 72.5,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0179",
+            "status": "DESVIADO",
+            "combustivel": 71.9,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0180",
+            "status": "POUSADO",
+            "combustivel": 6.9,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0181",
+            "status": "DESVIADO",
+            "combustivel": 42.3,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0182",
+            "status": "DESVIADO",
+            "combustivel": 80.0,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0183",
+            "status": "DESVIADO",
+            "combustivel": 58.6,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0184",
+            "status": "DESVIADO",
+            "combustivel": 49.5,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0185",
+            "status": "DESVIADO",
+            "combustivel": 45.9,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0186",
+            "status": "DESVIADO",
+            "combustivel": 79.1,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0187",
+            "status": "DESVIADO",
+            "combustivel": 94.1,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0188",
+            "status": "DESVIADO",
+            "combustivel": 96.9,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0189",
+            "status": "DESVIADO",
+            "combustivel": 69.3,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0190",
+            "status": "DESVIADO",
+            "combustivel": 83.4,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0191",
+            "status": "DESVIADO",
+            "combustivel": 78.6,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0192",
+            "status": "DESVIADO",
+            "combustivel": 45.5,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0193",
+            "status": "DESVIADO",
+            "combustivel": 72.1,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0194",
+            "status": "DESVIADO",
+            "combustivel": 48.8,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0195",
+            "status": "DESVIADO",
+            "combustivel": 50.5,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0196",
+            "status": "DESVIADO",
+            "combustivel": 81.7,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0197",
+            "status": "DESVIADO",
+            "combustivel": 94.2,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0198",
+            "status": "DESVIADO",
+            "combustivel": 56.2,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0199",
+            "status": "DESVIADO",
+            "combustivel": 43.0,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0200",
+            "status": "DESVIADO",
+            "combustivel": 43.9,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0201",
+            "status": "DESVIADO",
+            "combustivel": 43.8,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0202",
+            "status": "DESVIADO",
+            "combustivel": 42.7,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0203",
+            "status": "DESVIADO",
+            "combustivel": 79.9,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0204",
+            "status": "DESVIADO",
+            "combustivel": 80.1,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0205",
+            "status": "DESVIADO",
+            "combustivel": 65.0,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0206",
+            "status": "DESVIADO",
+            "combustivel": 69.8,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0207",
+            "status": "DESVIADO",
+            "combustivel": 62.6,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0208",
+            "status": "DESVIADO",
+            "combustivel": 63.2,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0209",
+            "status": "DESVIADO",
+            "combustivel": 58.8,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0210",
+            "status": "DESVIADO",
+            "combustivel": 68.0,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0211",
+            "status": "POUSADO",
+            "combustivel": 31.4,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0212",
+            "status": "DESVIADO",
+            "combustivel": 75.9,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0213",
+            "status": "DESVIADO",
+            "combustivel": 61.2,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0214",
+            "status": "DESVIADO",
+            "combustivel": 63.7,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0215",
+            "status": "DESVIADO",
+            "combustivel": 71.9,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0216",
+            "status": "DESVIADO",
+            "combustivel": 67.9,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0217",
+            "status": "DESVIADO",
+            "combustivel": 56.7,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0218",
+            "status": "DESVIADO",
+            "combustivel": 70.2,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0219",
+            "status": "POUSADO",
+            "combustivel": 8.3,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0220",
+            "status": "DESVIADO",
+            "combustivel": 90.2,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0221",
+            "status": "DESVIADO",
+            "combustivel": 74.0,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0222",
+            "status": "DESVIADO",
+            "combustivel": 94.1,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0223",
+            "status": "DESVIADO",
+            "combustivel": 85.9,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0224",
+            "status": "DESVIADO",
+            "combustivel": 66.9,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0225",
+            "status": "DESVIADO",
+            "combustivel": 93.1,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0226",
+            "status": "DESVIADO",
+            "combustivel": 94.5,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0227",
+            "status": "DESVIADO",
+            "combustivel": 78.6,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0228",
+            "status": "POUSADO",
+            "combustivel": 33.3,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0229",
+            "status": "DESVIADO",
+            "combustivel": 44.0,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0230",
+            "status": "DESVIADO",
+            "combustivel": 75.5,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0231",
+            "status": "DESVIADO",
+            "combustivel": 78.6,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0232",
+            "status": "DESVIADO",
+            "combustivel": 51.9,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0233",
+            "status": "DESVIADO",
+            "combustivel": 53.1,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0234",
+            "status": "DESVIADO",
+            "combustivel": 54.2,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0235",
+            "status": "DESVIADO",
+            "combustivel": 94.6,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0236",
+            "status": "DESVIADO",
+            "combustivel": 46.5,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0237",
+            "status": "DESVIADO",
+            "combustivel": 41.8,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0238",
+            "status": "DESVIADO",
+            "combustivel": 66.2,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0239",
+            "status": "DESVIADO",
+            "combustivel": 46.2,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0240",
+            "status": "DESVIADO",
+            "combustivel": 55.6,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0241",
+            "status": "DESVIADO",
+            "combustivel": 84.2,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0242",
+            "status": "DESVIADO",
+            "combustivel": 86.4,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0243",
+            "status": "DESVIADO",
+            "combustivel": 92.2,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0244",
+            "status": "DESVIADO",
+            "combustivel": 71.3,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0245",
+            "status": "DESVIADO",
+            "combustivel": 83.9,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0246",
+            "status": "DESVIADO",
+            "combustivel": 95.4,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0247",
+            "status": "DESVIADO",
+            "combustivel": 67.9,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0248",
+            "status": "DESVIADO",
+            "combustivel": 64.8,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0249",
+            "status": "DESVIADO",
+            "combustivel": 76.3,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0250",
+            "status": "POUSADO",
+            "combustivel": 33.2,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0251",
+            "status": "DESVIADO",
+            "combustivel": 71.6,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0252",
+            "status": "DESVIADO",
+            "combustivel": 49.1,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0253",
+            "status": "DESVIADO",
+            "combustivel": 44.9,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0254",
+            "status": "DESVIADO",
+            "combustivel": 83.7,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0255",
+            "status": "DESVIADO",
+            "combustivel": 60.3,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0256",
+            "status": "DESVIADO",
+            "combustivel": 77.3,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0257",
+            "status": "DESVIADO",
+            "combustivel": 84.9,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0258",
+            "status": "DESVIADO",
+            "combustivel": 82.0,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0259",
+            "status": "DESVIADO",
+            "combustivel": 68.7,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0260",
+            "status": "DESVIADO",
+            "combustivel": 52.9,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0261",
+            "status": "DESVIADO",
+            "combustivel": 54.1,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0262",
+            "status": "DESVIADO",
+            "combustivel": 48.1,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0263",
+            "status": "DESVIADO",
+            "combustivel": 97.5,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0264",
+            "status": "DESVIADO",
+            "combustivel": 62.3,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0265",
+            "status": "DESVIADO",
+            "combustivel": 81.6,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0266",
+            "status": "DESVIADO",
+            "combustivel": 45.1,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0267",
+            "status": "DESVIADO",
+            "combustivel": 94.9,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0268",
+            "status": "DESVIADO",
+            "combustivel": 83.1,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0269",
+            "status": "DESVIADO",
+            "combustivel": 74.7,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0270",
+            "status": "DESVIADO",
+            "combustivel": 55.3,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0271",
+            "status": "DESVIADO",
+            "combustivel": 71.7,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0272",
+            "status": "DESVIADO",
+            "combustivel": 43.2,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0273",
+            "status": "DESVIADO",
+            "combustivel": 78.1,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0274",
+            "status": "DESVIADO",
+            "combustivel": 47.0,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0275",
+            "status": "DESVIADO",
+            "combustivel": 93.7,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0276",
+            "status": "DESVIADO",
+            "combustivel": 54.2,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0277",
+            "status": "DESVIADO",
+            "combustivel": 75.3,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0278",
+            "status": "DESVIADO",
+            "combustivel": 70.1,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0279",
+            "status": "DESVIADO",
+            "combustivel": 90.4,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0280",
+            "status": "DESVIADO",
+            "combustivel": 46.0,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0281",
+            "status": "DESVIADO",
+            "combustivel": 41.3,
+            "destino": "BSB_Brasilia"
+        },
+        {
+            "id": "VOO_0282",
+            "status": "DESVIADO",
+            "combustivel": 91.4,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0283",
+            "status": "DESVIADO",
+            "combustivel": 67.6,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0284",
+            "status": "DESVIADO",
+            "combustivel": 83.5,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0285",
+            "status": "POUSADO",
+            "combustivel": 8.3,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0286",
+            "status": "POUSADO",
+            "combustivel": 30.3,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0287",
+            "status": "DESVIADO",
+            "combustivel": 82.8,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0288",
+            "status": "DESVIADO",
+            "combustivel": 84.7,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0289",
+            "status": "DESVIADO",
+            "combustivel": 51.4,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0290",
+            "status": "DESVIADO",
+            "combustivel": 73.2,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0291",
+            "status": "POUSADO",
+            "combustivel": 31.4,
+            "destino": "LOCAL"
+        },
+        {
+            "id": "VOO_0292",
+            "status": "DESVIADO",
+            "combustivel": 51.2,
+            "destino": "VCP_Campinas"
+        },
+        {
+            "id": "VOO_0293",
+            "status": "DESVIADO",
+            "combustivel": 96.8,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0294",
+            "status": "DESVIADO",
+            "combustivel": 71.2,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0295",
+            "status": "DESVIADO",
+            "combustivel": 81.0,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0296",
+            "status": "DESVIADO",
+            "combustivel": 94.8,
+            "destino": "GRU_Guarulhos"
+        },
+        {
+            "id": "VOO_0297",
+            "status": "DESVIADO",
+            "combustivel": 81.0,
+            "destino": "GIG_Galeao"
+        },
+        {
+            "id": "VOO_0298",
+            "status": "DESVIADO",
+            "combustivel": 73.2,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0299",
+            "status": "DESVIADO",
+            "combustivel": 72.5,
+            "destino": "CNF_Confins"
+        },
+        {
+            "id": "VOO_0300",
+            "status": "DESVIADO",
+            "combustivel": 83.7,
+            "destino": "GIG_Galeao"
+        }
+    ]
+}
